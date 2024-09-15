@@ -1,7 +1,7 @@
 <template>
   <UContainer class="m-4 text-center">
     <h1 class="text-3xl font-bold mb-4">PragVue 2024</h1>
-    <h2 class="text-2xl">Do you like Vue.js?</h2>
+    <h2 class="text-2xl">How do you like Vue.js?</h2>
     <div class="grid grid-rows-2 grid-cols-2 gap-2 justify-center mx-auto my-4 max-w-96">
       <div class="text-4xl font-bold text-green-600">
         {{ poll.upvotes }}
@@ -9,8 +9,8 @@
       <div class="text-4xl font-bold text-red-600">
         {{ poll.downvotes }}
       </div>
-      <UButton icon="i-heroicons-hand-thumb-up" color="green" @click="upvote">Upvote</UButton>
-      <UButton icon="i-heroicons-hand-thumb-down" color="red" @click="downvote">Downvote</UButton>
+      <UButton icon="i-heroicons-hand-thumb-up" color="green" @click="upvote">Like</UButton>
+      <UButton icon="i-heroicons-hand-thumb-down" color="red" @click="downvote">Dislike</UButton>
     </div>
     <div class="text-3xl font-bold" :class="scoreFont">
       Score: {{ score }} %

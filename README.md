@@ -1,9 +1,13 @@
 # nuxt-in-15m
 
-Example of a very simple Nuxt appliacation that should be set up and running live on Netlify in only 15 minutes. Will be shown during a live coding session at [PragVue 2024 conference](https://pragvue.com/).
+Example of a very simple Nuxt appliacation that should be set up and running live on Netlify in only 15 minutes. 
+
+It was shown during a live coding session at [PragVue 2024 conference](https://pragvue.com/).
 
 ## Prerequisities
 
+- Node.js
+- VS Code
 - Working GitHub account
 - Connected GithHub account to Netlify
 

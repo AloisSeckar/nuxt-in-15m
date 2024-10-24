@@ -1,7 +1,7 @@
 <template>
   <UContainer class="m-4 text-center">
-    <h1 class="text-3xl font-bold mb-4">PragVue 2024</h1>
-    <h2 class="text-2xl">How do you like Vue.js?</h2>
+    <h1 class="text-3xl font-bold mb-4">Nuxt in 15 minutes</h1>
+    <h2 class="text-2xl">How do you like Nuxt?</h2>
     <div class="grid grid-rows-2 grid-cols-2 gap-2 justify-center mx-auto my-4 max-w-96">
       <div class="text-4xl font-bold text-green-600">
         {{ poll.upvotes }}
